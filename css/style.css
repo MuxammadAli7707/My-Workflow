@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__title {
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 56px;
+  color: #000;
+}
+
+.hero__name {
+  font-weight: 600;
+  color: #000;
+  margin-right: 18px;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.form__box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.form__input {
+  padding: 15px 10px;
+  border: 2px solid #949494;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  width: 100%;
+}
+.bxs-error-alt {
+  color: #ee0004;
+  font-size: 22px;
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: -35px;
+}
+.form__input:focus {
+  outline: none;
+}
+
+.form__input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+.input__btn {
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  opacity: 0.4;
+}
